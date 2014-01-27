@@ -75,12 +75,6 @@ option_parser = OptionParser.new do |opts|
 		end
     
   end
-	
-	
-	opts.on('-s', '--here', 'Set options as here') do
-	  # 这个部分就是使用这个Option后执行的代码
-	  Mdpreview.hi_dir(src_p)
-	end
 
   # Option 作为flag，带一组用逗号分割的arguments，用于将arguments作为数组解析
   # opts.on('-a A,B', '--array A,B', Array, 'List of arguments') do |value|
