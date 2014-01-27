@@ -1,1 +1,1 @@
-/Volumes/data/Github/toc.md/README.md
+/Volumes/data/Github/toc.md/
