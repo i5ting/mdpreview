@@ -1,5 +1,6 @@
 require 'pathname' 
 # require 'FileUtils'
+require 'fileutils'
 
 class Mdpreview::Translator  
   def initialize(source_file_path) 
