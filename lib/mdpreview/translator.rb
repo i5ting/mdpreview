@@ -210,17 +210,18 @@ class Mdpreview::Translator
 					</style>
 	      </head>
 	      <body>
-					<div>
-					
-					</div>
-	        <div id='readme' style='width:834px;margin:20px auto'>
-						<ul id="tree" class="ztree" style="">
+				  <div>
+							<div style='width:25%;'>
+									<ul id="tree" class="ztree" style='width:100%'>
 		
-						</ul>
-	          <article class='markdown-body'>
-	            #{parse_markdown}
-	          </article>
-	        </div>
+									</ul>
+							</div>
+			        <div id='readme' style='width:70%;margin-left:20%;'>
+			          	<article class='markdown-body'>
+			            	#{parse_markdown}
+			          	</article>
+			        </div>
+					</div>
 	      </body>
 	    </html>
 			<script type="text/javascript" src="#{@editor_path}/toc/js/jquery-1.4.4.min.js"></script>
@@ -230,7 +231,8 @@ class Mdpreview::Translator
 			<!--
 			$(document).ready(function(){
 				$('#tree').ztree_toc({
-				
+					is_auto_number:true,
+					documment_selector:'.markdown-body'
 				});
 			});
 			//-->
