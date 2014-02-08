@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["shiren1118@126.com"]
   gem.description   = %q{convert markdown to html with toc plugin}
   gem.summary       = %q{convert markdown to html with toc plugin}
-  gem.homepage      = ""
+  gem.homepage      = "http://ruby-china.org/topics/17028"
   gem.files         = FileList['lib/**/*.rb',
                         'bin/*',
                         'vendor/**/**/**',
