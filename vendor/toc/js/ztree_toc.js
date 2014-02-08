@@ -1,4 +1,4 @@
-/*! ztree_toc - v0.2.0 - 2014-02-05
+/*! ztree_toc - v0.2.2 - 2014-02-08
 * https://github.com/i5ting/jQuery.zTree_Toc.js
 * Copyright (c) 2014 alfred.sang; Licensed MIT */
 function encode_id_with_array(opts,arr) {
@@ -93,7 +93,8 @@ function factor(opts ,count,current) {
 		}
 		
 		if(opts.is_auto_number == true) {
-			$(header_obj).text(opts._headers.join('.') + '. ' + $(header_obj).text());
+			var _previos_text = $(header_obj).text().replace(opts._headers.join('.'),'');
+			$(header_obj).text( opts._headers.join('.') + '. ' + _previos_text );
 		}
 	}
 	
