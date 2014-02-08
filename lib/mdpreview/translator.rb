@@ -226,7 +226,7 @@ class Mdpreview::Translator
 	    </html>
 			<script type="text/javascript" src="#{@editor_path}/toc/js/jquery-1.4.4.min.js"></script>
 			<script type="text/javascript" src="#{@editor_path}/toc/js/jquery.ztree.all-3.5.min.js"></script>
-			<script type="text/javascript" src="#{@editor_path}/toc/js/ztree_toc.min.js"></script>
+			<script type="text/javascript" src="#{@editor_path}/toc/js/ztree_toc.js"></script>
 			<SCRIPT type="text/javascript" >
 			<!--
 			$(document).ready(function(){
